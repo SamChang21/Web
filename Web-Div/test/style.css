@@ -1,0 +1,20 @@
+.info-box {
+    border: 1px solid red; 
+}
+#box1 { 
+    background-color: red;
+}
+#box2 {
+    background-color: royalblue;
+}
+#box3 {
+    background-color: saddlebrown;
+}
+p {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}

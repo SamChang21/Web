@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    display: inline-block;
+}
+#box1{
+    background-color: dodgerblue;
+    height: 5vh;
+    width: 100vw;
+    text-align: center;
+    margin-top: 0;
+}
+#box2{
+
+    text-align: center;
+    background-image: url("img/ivan-bandura-Z1jyU-1ixXE-unsplash.jpg") ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 15vh;
+    width: 100vw;
+}
+h1{
+    color: aliceblue;
+    padding-top: 50px;
+    display: inline-block;
+}
+#box3{
+    color: aliceblue;
+    height: 30vh;
+    width: 100vw;
+    padding-top: 80px;
+    display: inline-block;
+}
+#bigbox1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/jeremy-bishop-4SUE85iGMJU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+    height: 70vh;
+    width: 100vw;
+    
+}
+div{
+    color: aliceblue;
+}
+#smallbox1{
+    text-align: center;
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+#box4{
+    height: auto;
+    width: 400px;
+    display: inline-block;
+    vertical-align:top;
+}
+
+#box6{
+    background-color: dodgerblue;
+    justify-content: space-around;
+    height: 5vh;
+    width: 100vw;
+    text-align: center;
+    display: inline-block;
+    padding-top: 10px;    
+}
+#bigbox2{
+    background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 70vh;
+    width: 100vw;
+    padding-top: 75px;
+    display: inline-block;
+}
+#smallbox2, #smallbox3, #smallbox4{
+    text-align: center;
+    margin: 10px;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+}
+.wave1 {
+    object-fit: cover;
+    width: 100px;
+    height: 80px;
+}
+#box13, #box15, #box17{
+    height: 80%;
+    width: 75%;
+    text-align: left;
+    color: black;
+    margin: 10px;
+    padding-top: 15px;
+    display: inline-block;
+}
+#smallbox5{
+    height: 100%;
+    width: 50%;
+    color: black;
+    display: inline-block;
+    margin-left: 0;
+    text-align:right;
+    vertical-align: top;
+}
+
+#box19{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    color: black;
+    flex-wrap: wrap;
+}
+#smallbox6{
+    height: 100%;
+    width: 45%;
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-left: 3vw;
+}
+#box18{
+    height: 20%;
+    width: 100%;
+    text-align: left;
+    color: black;
+    display: inline-block;
+}
+#box20{
+    display: inline-block;
+}
+#form1{
+    height: 20px;
+    width: 300px;
+}
+#submit{
+    width: 300px;
+}
+#input1{
+    height: 400px;
+    width: 300px;
+
+}
+h3{
+    height: 30px;
+}
+p{
+    margin-top: 20px;
+}
+#box23{
+    background-image: url("img/jeremy-bishop-4SUE85iGMJU-unsplash.jpg");
+    height: 35vh;
+    width: 50vw;
+    margin-left: 200px;
+    background-color: pink;
+    width: 80vw;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+#sideimg{
+    display: inline-block;
+}
+#bigbox3{
+    background-color: aliceblue;
+    color: black;
+    height: 70vh;
+    width: 100vw;
+    padding: 20px;
+}
+#box22{
+    color: black;
+    width: 80vw;
+    margin: auto;
+}

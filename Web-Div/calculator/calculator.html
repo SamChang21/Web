@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculator.js"></script> 
+</head>
+<body>
+    <div id="mainbody">
+        <input type="text" id="screen">
+        <div class="but">
+            <div class="row">
+                <button onclick="clrdisp()">C</button>
+                <button onclick="mod('%')">%</button>
+            </div>
+            <div class="row">
+                <button onclick="showOnScreen(7)">7</button>
+                <button onclick="showOnScreen(8)">8</button>
+                <button onclick="showOnScreen(9)">9</button>
+                <button onclick="divide('/')">/</button>
+            </div>
+            <div class="row">
+                <button onclick="showOnScreen(4)">4</button>
+                <button onclick="showOnScreen(5)">5</button>
+                <button onclick="showOnScreen(6)">6</button>
+                <button onclick="times('*')">*</button>
+            </div>
+            <div class="row">
+                <button onclick="showOnScreen(1)">1</button>
+                <button onclick="showOnScreen(2)">2</button>
+                <button onclick="showOnScreen(3)">3</button>
+                <button onclick="minus('-')">-</button>
+            </div>
+            <div class="row">
+                <button onclick="storeNum1(0)">0</button>
+                <button onclick="storeNum1('.')">.</button>
+                <button onclick="equals('=')">=</button>
+                <button onclick="add('+')">+</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
