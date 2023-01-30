@@ -1,8 +1,8 @@
-const age=15
-let score=100
-const student1="sam1"
-const student2="sam2"
-let student3="sam3"
-document.write("hi "+student1)
-document.write(`${student1}is the ont that sleep at the back `)
-prompt("what is yor fav num")
+var name = prompt("What is your name?")
+var partner = prompt("who is your partner?")
+var wish1 = prompt("what is your first wish?")
+var wish2 = prompt("what is your second wish?")
+var wish3 = prompt("what is your third wish?")
+
+document.write(	`One day ${name} snd ${partner} found the temple that contains the Alladins lamp. There are a lot of traps and challenges in the temple. Because of temptation of  getting wishes ${name} and ${partner} just went into the temple without hesitation. After they gets into the temple, htey found out that there are a lot of traps and challenges. Eventually, they got to the treasure room, and get to Alladins lamp. they uses all three wishes to get ${wish1}, ${wish2}, ${wish3}.`
+    )
